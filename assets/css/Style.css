@@ -10,6 +10,10 @@
     font-family: Santino;
     src: url(../fonts/Santio\ regular.ttf);
 }
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
 *{
     margin:0;
 }
@@ -20,6 +24,7 @@ main{
     background-repeat: no-repeat;
     background-size: cover;
     height: auto;
+    padding-bottom: 10px;
 }
 header{
     
@@ -28,10 +33,21 @@ header{
 }
 .head{
     display: flex;
-    justify-content:flex-end;
+    justify-content: flex-end;
+    align-items: center;
 }
 .head img{
     width: 2vw;
+    margin: 30px 10px 0px 30px;
+}
+.head a{
+    color: #FFF;
+    text-align: right;
+    font-family: "Roboto";
+    font-size: 16px;
+    border-bottom: 0.556px solid #E7BC0E;
+    text-decoration: none;
+    margin: 30px 30px 0px 10px;
 }
 .Hero{
     margin: 130px 0px 230px 130px;
@@ -60,10 +76,8 @@ header{
     display: flex;
     width: 220px;
     justify-content: space-between;
-    /* width: 10vw; */
 }
 h1{
-    /* width: 10vw; */
     width: 192px;
     color: #FFF;
     font-family: "Inter";
@@ -72,6 +86,8 @@ h1{
     font-weight: 700;
     line-height: normal;
 }
+
+
 .workers{
     width: 35vw;
     height: auto;
@@ -83,23 +99,19 @@ h1{
     font-weight: 700;
     line-height: 49.2px;
 }
-.kids{
-    background-image: url(../img/kid.png);
-    
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
+.highlight{
+    color: white;
+    background-color: #333;
+    padding-top: 5px;
+    font-size: 35.2px;
 }
-footer{
-    background-color: black;
-    height: 50vh;
-}
+
 .workers2{
     display: flex;
     flex-direction: column;
     width: 550px;
     margin: auto;
+    margin-bottom: 350px;
 }
 .workers2 div{
     height: 105px;
@@ -107,6 +119,7 @@ footer{
 }
 .workers2 p:nth-of-type(1){
     color: #E7BC0E;
+    margin-top: 30px;
     font-family: "Santino";
     font-size: 139px;
     font-style: normal;
@@ -126,21 +139,21 @@ footer{
     flex-direction: column;
     width: 550px;
     margin: auto;
-
+    margin-bottom: 350px;
 }
 .workers3 div{
     height: 105px;
     width: 105px;
 }
-
 span{
     color: white;
     background-color: #333;
     padding-top: 5px;
-    font-size: 42.2px;
+    font-size: 52.2px;
 }
 .workers3 p:nth-of-type(1){
     color: #CB91B6;
+    margin-top: 30px;
     font-family: "Santino";
     font-size: 52.2px;
     font-style: normal;
@@ -155,5 +168,106 @@ span{
     font-weight: 700;
     line-height: normal;
 }
+.workers4{
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    margin: auto;
+    margin-bottom: 350px;
+}
+.workers4 div{
+    height: 105px;
+    width: 105px;
+}
+.workers4 p:nth-of-type(1){
+    color: #6BC1A3;
+    margin-top: 30px;
+    font-family: "Santino";
+    font-size: 111px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.workers4 p:nth-of-type(2){
+    color: #6BC1A3;
+    font-family: Santino;
+    font-size: 42.2px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.highlight2{
+    color: white;
+    background-color: #333;
+    padding-top: 5px;
+    font-size: 42.2px;
+}
+.text{
+    width: 630px;
+    margin: auto;
+    margin-right: 280px;
+    margin-bottom: 300px;
+    color: #7EB8E1;
+    font-family: "Santino";
+    font-size: 35.2px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 49.2px;
+}
+.kids{
+    background-image: url(../img/kid.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
 
+/** FOOTER**/
+
+footer{height: auto;
+    padding-bottom: 50px;
+  
+}
+footer p{
+    width: 28vw;
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 47px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0px 0px 50px 125px;
+    padding-top: 125px;
+}
+footer >a{
+    color: #FFF;
+    width: 3vw;
+    height: 2vh;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0px 0px 50px 125px;
+    line-height: normal;
+    letter-spacing: 1px;
+    border: 1px solid white;
+    text-decoration: none;
+    padding: 20px 25px;
+}
+footer >section >a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-family: Roboto;
+    font-size: 12.8px;
+    margin-top: 100px;
+}
+footer >a:hover{
+    box-shadow: 15px 15px 0px 0px rgba(255,255,255,1);
+}
+footer{
+    background-color: black;
+    height: 50vh;
+}
 
