@@ -1,0 +1,97 @@
+@font-face {
+    font-family: Inter;
+    src: url(../fonts/Inter-Regular.ttf);
+}
+@font-face {
+    font-family: Mr Dafoe;
+    src: url(../fonts/MrDafoe-Regular.ttf);
+}
+@font-face {
+    font-family: Santino;
+    src: url(../fonts/Santio\ regular.ttf);
+}
+*{
+    margin:0;
+}
+main{
+    background-image: url(../img/cleo-topper.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+header{
+    
+    background-color: transparent;
+
+}
+.head{
+    display: flex;
+    justify-content:flex-end;
+}
+.head img{
+    width: 2vw;
+}
+.Hero{
+    margin: 130px 0px 230px 130px;
+    
+}
+.Hero p:nth-of-type(1){
+    color: #E7BC0E;
+
+    font-family: "Mr Dafoe";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -2px;
+}
+.Hero p:nth-of-type(2){
+    color: #E7BC0E;
+    font-family: "Helvetica Neue";
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -2px;
+}
+.Hero div{
+    display: flex;
+    width: 220px;
+    justify-content: space-between;
+    /* width: 10vw; */
+}
+h1{
+    /* width: 10vw; */
+    width: 192px;
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 66px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.workers{
+    width: 35vw;
+    height: auto;
+    margin: 130px 0px 0px 250px;
+    color: #6BC1A3;
+    font-family:"Santino";
+    font-size: 35.2px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 49.2px;
+}
+.kids{
+    background-image: url(../img/kid.png);
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+footer{
+    background-color: black;
+    height: 50vh;
+}
