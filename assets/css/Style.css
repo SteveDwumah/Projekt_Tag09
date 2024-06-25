@@ -87,7 +87,17 @@ h1{
     line-height: normal;
 }
 
-
+.kids{
+    background-image: url(../img/kid.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+footer{
+    background-color: black;
+    height: 50vh;
+}
 .workers{
     width: 35vw;
     height: auto;
@@ -214,20 +224,11 @@ span{
     font-weight: 700;
     line-height: 49.2px;
 }
-.kids{
-    background-image: url(../img/kid.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-}
 
-/** FOOTER**/
-
-footer{height: auto;
+footer{
+    height: auto;
     padding-bottom: 50px;
-  
-}
+  }
 footer p{
     width: 28vw;
     color: #FFF;
@@ -265,9 +266,5 @@ footer >section >a{
 }
 footer >a:hover{
     box-shadow: 15px 15px 0px 0px rgba(255,255,255,1);
-}
-footer{
-    background-color: black;
-    height: 50vh;
 }
 
